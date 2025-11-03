@@ -60,7 +60,7 @@ function DeletarCategoria() {
       </p>
 
       <div className="border flex flex-col rounded-2xl overflow-hidden justify-between">
-        <header className="py-2 px-6 bg-indigo-600 text-white font-bold text-2xl">
+        <header className="py-2 px-6 bg-[#4A70A9] text-white font-bold text-2xl">
           {categoria.nome}
         </header>
 
@@ -75,7 +75,7 @@ function DeletarCategoria() {
           </button>
 
           <button
-            className="w-full text-slate-100 bg-indigo-400 hover:bg-indigo-600 flex items-center justify-center"
+            className="w-full text-slate-100 bg-[#6D94C5] hover:bg-[#234C6A] flex items-center justify-center"
             onClick={deletarCategoria}
           >
             {isLoading ? (
