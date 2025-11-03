@@ -3,7 +3,7 @@ import ListaCategorias from "../../components/categoria/listacategorias/ListaCat
 function Home() {
   return (
     <>
-      <div className="bg-indigo-900 flex justify-center">
+      <div className="bg-[#8FABD4] flex justify-center">
         <div className="container grid grid-cols-2 text-white">
 
           <div className="flex flex-col gap-4 items-center justify-center py4">
@@ -19,9 +19,9 @@ function Home() {
 
           <div className="flex justify-center">
             <img
-              src="https://plus.unsplash.com/premium_photo-1661766456250-bbde7dd079de?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFybWFjaWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&"
+              src="https://i.imgur.com/1W500uH.png"
               alt="Imagem Página Home"
-              className="w-2/3"
+              className="w-2/3 rounded-3xl"
             />
           </div>
 
